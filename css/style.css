@@ -1,0 +1,221 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+
+:root {
+  --main-color: #757575;
+  --color-negative-text: #ffffff;
+  --auxiliary-color: #212121;
+  --focus-button-bcg-color: #2196f3;
+}
+
+/* WebStudio */
+.logo-navigation {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+/*основная навигация по сайту*/
+.logo-part {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--focus-button-bcg-color);
+}
+
+.header-link {
+  color: var(--auxiliary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.link .header-link:hover {
+  color: var(--focus-button-bcg-color);
+}
+
+.link .header-link:focus {
+  color: var(--focus-button-bcg-color);
+}
+
+.contacte-header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.contacte-header .contacte-header-link:hover {
+  color: var(--focus-button-bcg-color);
+}
+
+.contacte-header .contacte-header-link:focus {
+  color: var(--focus-button-bcg-color);
+}
+
+.hero {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-negative-text);
+  /*для наглядности цвета заголовка*/
+  background-color: #757575;
+}
+
+.order {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-negative-text);
+  background-color: var(--focus-button-bcg-color);
+}
+
+.heading-company-advantages {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--auxiliary-color);
+}
+
+.text-company-advantages {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.section-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--auxiliary-color);
+}
+
+.heading-company-team {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--auxiliary-color);
+}
+
+.text-company-team {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.logo-footer {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--color-negative-text);
+  /*для видимости*/
+  background-color: #757575;
+}
+
+.address-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--color-negative-text);
+  /*для видимости*/
+  background-color: #757575;
+}
+
+.contacte-footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  /*для видимости*/
+  background-color: #757575;
+}
+
+.footer .contacte-footer-link:hover {
+  color: var(--focus-button-bcg-color);
+}
+
+.footer .contacte-footer-link:focus {
+  color: var(--focus-button-bcg-color);
+}
+
+.filter-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--auxiliary-color);
+  background-color: #f5f4fa;
+}
+
+.filter .filter-button:hover {
+  background-color: var(--focus-button-bcg-color);
+  color: var(--color-negative-text);
+}
+
+.filter .filter-button:focus {
+  background-color: var(--focus-button-bcg-color);
+  color: var(--color-negative-text);
+}
+
+.work-examples-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--auxiliary-color);
+}
+
+.work-examples-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
