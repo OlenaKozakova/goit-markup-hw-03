@@ -4,6 +4,7 @@
   --dark-color: #212121;
   --button-bcg-color: #2196f3;
   --dark-bcg: #2f303a;
+  --bcg-btn: #f5f4fa;
 }
 
 body {
@@ -53,52 +54,31 @@ body {
   color: var(--main-color);
 }
 
-.hero {
-  background-color: var(--dark-bcg);
-}
-
-.hero-name {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--white);
-}
-
-.hero-btn {
-  font-weight: bold;
+.filter-btn {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.875;
-  display: flex;
-  letter-spacing: 0.06em;
+  line-height: 26px;
+  text-align: center;
+  color: var(--dark-color);
+  background-color: var(--bcg-btn);
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--white);
   background-color: var(--button-bcg-color);
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--dark-color);
-  background-color: var(--main-color);
-}
-
-.title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.66;
-  color: var(--dark-color);
-}
-
-.text-title {
+.name-website {
   font-weight: bold;
   line-height: 1.14;
-  text-transform: uppercase;
   color: var(--dark-color);
 }
 
-.position {
+.subtitle {
   font-size: 16px;
-  line-height: 1.187;
+  line-height: 1.857;
+  color: var(--main-color);
 }
 
 .ftr {
