@@ -6,6 +6,39 @@
   --dark-bcg: #2f303a;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -18,7 +51,16 @@ body {
   list-style: none;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.inline-block li {
+  display: inline-block;
+}
+
 .logo {
+  text-decoration: none;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -34,6 +76,7 @@ body {
 }
 
 .link {
+  text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -46,6 +89,7 @@ body {
 }
 
 .link-contact {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
