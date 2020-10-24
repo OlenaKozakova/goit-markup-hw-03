@@ -55,6 +55,7 @@ body {
   margin-left: auto;
 }
 
+/*добавлена рамка в header*/
 .header {
   border: 1px solid #ececec;
 }
@@ -168,6 +169,7 @@ nav a.active {
   color: var(--white);
   background-color: var(--button-bcg-color);
   text-transform: capitalize;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
