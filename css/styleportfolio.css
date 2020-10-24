@@ -159,6 +159,8 @@ nav a.active {
 
 .filter-btn {
   display: inline-block;
+  border: 0px solid var(--accent-cl);
+  border-radius: 4px;
   padding: 6px 22px;
   justify-content: center;
   font-weight: 500;
@@ -167,7 +169,6 @@ nav a.active {
   text-align: center;
   color: var(--dark-color);
   background-color: var(--bcg-btn);
-  border-radius: 4px;
 }
 
 .filter-btn:hover,
