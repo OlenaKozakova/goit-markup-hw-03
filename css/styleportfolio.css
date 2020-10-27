@@ -25,7 +25,9 @@ img {
 h1,
 h2,
 h3,
-p {
+p,
+ul [class],
+li {
   margin-top: 0;
 }
 
@@ -48,7 +50,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -58,7 +60,7 @@ body {
 /*добавлена рамка в header*/
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   height: 80px;
   margin-bottom: 93px;
 }
@@ -149,9 +151,6 @@ nav a.active {
   display: flex;
   justify-content: center;
 }
-.filter-item {
-  margin-bottom: 50px;
-}
 
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -180,6 +179,7 @@ nav a.active {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
 
 .project-item {

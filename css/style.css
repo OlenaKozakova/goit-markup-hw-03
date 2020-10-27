@@ -25,7 +25,9 @@ img {
 h1,
 h2,
 h3,
-p {
+p,
+ul [class],
+li {
   margin-top: 0;
 }
 
@@ -48,7 +50,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -57,7 +59,7 @@ body {
 
 /*добавлена рамка в header*/
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -181,6 +183,11 @@ nav a.active {
   background-color: var(--main-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantages {
   display: flex;
 }
@@ -217,7 +224,6 @@ nav a.active {
 }
 
 .advantages-text {
-  margin-bottom: 94px;
   text-align: justify;
   font-size: 14px;
   line-height: 1.714;
@@ -235,6 +241,10 @@ nav a.active {
   margin-top: 30px;
 }
 
+.section-gallery {
+  padding-top: 0;
+}
+
 .gallery-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-bottom: 188px;
@@ -246,7 +256,6 @@ nav a.active {
 
 .team-grid {
   flex-basis: calc(100% / 4 - 30px);
-  margin-bottom: 94px;
   text-align: center;
 }
 
