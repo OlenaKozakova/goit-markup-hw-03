@@ -158,13 +158,13 @@ nav a.active {
 
 .filter-btn {
   display: inline-block;
+  justify-content: center;
   border: 0px solid var(--accent-cl);
   border-radius: 4px;
   padding: 6px 22px;
-  justify-content: center;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.625;
   text-align: center;
   color: var(--dark-color);
   background-color: var(--bcg-btn);
@@ -179,7 +179,9 @@ nav a.active {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  /*justify-content: space-between;*/
   margin-top: 50px;
+  margin-left: 0px;
 }
 
 .project-item {
